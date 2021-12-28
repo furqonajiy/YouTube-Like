@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-import RoomJoinPage from "./RomeJoinPage";
+import RoomJoinPage from "./RoomJoinPage";
 import CreateRoomPage from "./CreateRoomPage";
 
 import {
@@ -23,7 +23,7 @@ export default class HomePage extends Component {
                     <Route exact path='/'><p>HomePage</p></Route>
 
                     <Route path='/join' component={RoomJoinPage}/>
-                    <Route path='/create' component={RoomJoinPage}/>
+                    <Route path='/create' component={CreateRoomPage}/>
                 </Switch>
             </Router>
         );
